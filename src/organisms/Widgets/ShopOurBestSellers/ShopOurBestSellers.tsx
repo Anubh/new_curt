@@ -98,7 +98,7 @@ const ProductItem = (props: ProductItemProps) => {
 				<ResponsiveDiv css={styles.contentWrapper}>
 					<Flexbox direction="column" justify="space-between" align="flex-start">
 						<FlexboxItem colspan={24} colspanXL={24} mb="xs">
-							<Text fontStyleGuide="heading7" color="mine-shaft" textWrap="pretty">{props.product_name}</Text>
+							<Text fontStyleGuide="heading7" color="mine-shaft" textWrap="pretty" align="center">{props.product_name}</Text>
 						</FlexboxItem>
 						{/* <FlexboxItem colspan={24} colspanXL={24}>
 							<Flexbox direction="row" justify="start" align="flex-end">

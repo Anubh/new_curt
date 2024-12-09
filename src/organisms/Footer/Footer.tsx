@@ -70,9 +70,10 @@ const AddressBar = () => {
 					<LocationPin />
 				</FlexboxItem>
 				<FlexboxItem colspan={18}>
-					<Text color="mine-shaft" fontStyleGuide="body5" mb="xs">
+				<Link to="//google.com/maps/search/?api=1&query=Sharjah+Publishing+City+Free+Zone,+Sharjah,+United+Arab+Emirates" target="_blank" style={{ color: "mine-shaft", fontSize: "14px"}}>Sharjah Publishing City Free Zone, Sharjah, United Arab Emirates</Link>
+					{/* <Text color="mine-shaft" fontStyleGuide="body5" mb="xs">
 						Sharjah Publishing City Free Zone, Sharjah, United Arab Emirates
-					</Text>
+					</Text> */}
 					{/* <Text color="mine-shaft" fontStyleGuide="body5" mb="xs">
 						Address Line 2
 					</Text> */}
@@ -83,9 +84,10 @@ const AddressBar = () => {
 					<Whatsapp />
 				</FlexboxItem>
 				<FlexboxItem colspan={"auto"}>
-					<Text color="mine-shaft" fontStyleGuide="body5" mb="xs">
+				  <Link to="//wa.me/+971564989555" target="_blank" style={{ color: "mine-shaft", fontSize: "14px"}}> +971 564989555</Link>
+					{/* <Text color="mine-shaft" fontStyleGuide="body5" mb="xs">
 						+971 564989555
-					</Text>
+					</Text> */}
 				</FlexboxItem>
 			</Flexbox>
 			<Flexbox direction="row" justify="flex-start" align="flex-start" mb="sm">
@@ -93,9 +95,10 @@ const AddressBar = () => {
 					<Email />
 				</FlexboxItem>
 				<FlexboxItem colspan={"auto"}>
-					<Text color="mine-shaft" fontStyleGuide="body5" mb="xs">
+				<Link to="mailto:info@curtayns.com" target="_blank" style={{ color: "mine-shaft", fontSize: "14px"}}>info@curtayns.com</Link>
+					{/* <Text color="mine-shaft" fontStyleGuide="body5" mb="xs">
 					info@curtayns.com
-					</Text>
+					</Text> */}
 				</FlexboxItem>
 			</Flexbox>
 		</>
@@ -112,9 +115,9 @@ export default () => {
 					<Flexbox direction="row" justify="space-between" align="flex-start">
 						<FlexboxItem colspan={24} colspanXL={8}>
 							<CurtyansLogo />
-							<Text color="mine-shaft" fontStyleGuide="body5" mt="md" mb="xs">
+							{/* <Text color="mine-shaft" fontStyleGuide="body5" mt="md" mb="xs">
 								About Business Lorem Ipsum Dolor Sit Amet
-							</Text>
+							</Text> */}
 							<Text color="mine-shaft" fontStyleGuide="body5" mb="xxl">
 								Copyright @2024 Curtyans. All rights reserved
 							</Text>

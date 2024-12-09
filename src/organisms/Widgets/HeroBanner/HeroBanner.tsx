@@ -57,11 +57,11 @@ export default (props: HeroBannerProps) => {
 				<FlexboxItem colspan={24} colspanXL={10}>
 					<ResponsiveDiv css={styles.contentWrapper}>
 						<Text fontStyleGuide="heading4" color="flamingo" textWrap="balance" mb="md" align="center" alignXL="left">
-							{props.title}&nbsp;{props.sub_title}
+							{props.title}
 						</Text>
-						{/* <Text fontStyleGuide="heading7" color="mine-shaft" textWrap="balance" align="center" alignXL="left">
+						<Text fontStyleGuide="heading4" color="mine-shaft" textWrap="balance" align="center" alignXL="left">
 							{props.sub_title}
-						</Text> */}
+						</Text>
 						<ResponsiveDiv css={styles.buttonWrapper} xl={styles.buttonWrapperXL} mt="lg">
 							<Button type="secondary" to="/collection">Explore Our Collection</Button>
 						</ResponsiveDiv>
