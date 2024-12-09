@@ -235,7 +235,7 @@ export default () => {
 						<FlexboxItem colspan={24} colspanXL={18}>
 
 							<Text mb="xl" as="h1" color="mine-shaft" fontStyleGuide="heading5" fontStyleGuideXL="heading2" align="center">
-								Book a Free Consultation
+								Book a Free Visit
 							</Text>
 							<Card>
 								<ResponsiveDiv
@@ -364,7 +364,7 @@ export default () => {
 											/>
 										</FlexboxItem>
 									</Flexbox>
-									<ResponsiveDiv mb="xxl">
+									{/* <ResponsiveDiv mb="xxl">
 										<Text mb="sm" color="mine-shaft" fontStyleGuide="body4">Select a product type <sup>*</sup></Text>
 										<RadioGroup
 											name="category"
@@ -383,7 +383,7 @@ export default () => {
 												</FlexboxItem>
 											</Flexbox>
 										</RadioGroup>
-									</ResponsiveDiv>
+									</ResponsiveDiv> */}
 									<Flexbox direction="row" justify="space-between" align="center" mb="sm">
 										<FlexboxItem colspan={24}>
 											<Textarea

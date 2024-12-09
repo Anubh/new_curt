@@ -7,6 +7,8 @@ import Button from "atoms/Button";
 import Flexbox from "atoms/Flexbox";
 import { FlexboxItem } from "atoms/Flexbox/Flexbox";
 import Image from "atoms/Image";
+import { Link } from "react-router-dom";
+// import Whatsapp from "icons/Whatsapp";
 
 const styles = {
 	wrapper: css`
@@ -45,7 +47,9 @@ export default () => {
 						<Text fontStyleGuide="body4" color="mine-shaft" mb="md" textWrap="balance">
 							We’re available on WhatsApp for quick and easy support! Feel free to reach out anytime, and we’ll be happy to assist you.
 						</Text>
-						<Button type="secondary">WhatsApp Us</Button>
+						<Button type="secondary">
+							<Link to="//wa.me/+971564989555" target="_blank" style={{ color: "#9D0A02"}}>WhatsApp Us</Link>
+						</Button>
 					</FlexboxItem>
 				</Flexbox>
 				<ResponsiveDiv css={styles.imageContainer} xl={styles.imageContainerXL}>

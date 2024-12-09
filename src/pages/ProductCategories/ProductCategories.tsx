@@ -131,7 +131,7 @@ export default () => {
 				<Flexbox direction="row" justify="start" align="stretch" mt="2xl">
 					<FlexboxItem colspan={11} colspanXL={6}>
 						<Button full type="primary" to="/book-visit-form">
-							Book a Free Consultation
+							Book a Free Visit
 						</Button>
 					</FlexboxItem>
 				</Flexbox>

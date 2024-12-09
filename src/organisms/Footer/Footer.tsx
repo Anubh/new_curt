@@ -19,6 +19,7 @@ import Divider from "atoms/Divider";
 import Link from "atoms/Link";
 import Email from "icons/Email";
 import Whatsapp from "icons/Whatsapp";
+import Tiktok from "icons/Tiktok";
 
 
 const styles = {
@@ -35,7 +36,7 @@ const FindUsOnline = () => {
 		<ResponsiveDiv mb="xxl">
 			<Text color="mine-shaft" fontStyleGuide="body3" mb="md">Find Us Online</Text>
 			<Flexbox direction="row" justify="start" align="center">
-				<FlexboxItem colspan={"auto"} mr="md">
+				{/* <FlexboxItem colspan={"auto"} mr="md">
 					<Link to="" target="_blank">
 						<Facebook />
 					</Link>
@@ -44,10 +45,15 @@ const FindUsOnline = () => {
 					<Link to="" target="_blank">
 						<YouTube />
 					</Link>
+				</FlexboxItem> */}
+				<FlexboxItem colspan={"auto"} mr="md">
+					<Link to="//instagram.com/curtayns" target="_blank">
+						<Instagram />
+					</Link>
 				</FlexboxItem>
 				<FlexboxItem colspan={"auto"} mr="md">
-					<Link to="" target="_blank">
-						<Instagram />
+					<Link to="//tiktok.com/@curtayns" target="_blank">
+						<Tiktok />
 					</Link>
 				</FlexboxItem>
 			</Flexbox>
@@ -140,7 +146,7 @@ export default () => {
 										<Link type="primary" to="/collection">Our Collection</Link>
 									</Text>
 									<Text as="div" color="mine-shaft" fontStyleGuide="body4" mb="sm">
-										<Link type="primary" to="/book-visit-form">Book a Free Consultation</Link>
+										<Link type="primary" to="/book-visit-form">Book a Free Visit</Link>
 									</Text>
 								</FlexboxItem>
 							</Flexbox>

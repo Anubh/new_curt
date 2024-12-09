@@ -218,7 +218,7 @@ const Catalogue = (props: CataloguePageProps) => {
 						)}
 						<ResponsiveDiv mt="xxl">
 							<Button full to={"/book-visit-form"} type="primary">
-								{"Book a Free Consultation"}
+								{"Book a Free Visit"}
 							</Button>
 						</ResponsiveDiv>
 					</FlexboxItem>
