@@ -16,10 +16,10 @@ const styles = {
 		cursor: pointer;
 	`,
 	base: css`
-		font-family: var(--font-family-heading7);
-		font-size: var(--font-size-heading7);
-		font-weight: var(--font-weight-heading7);
-		line-height: var(--font-lineheight-heading7);
+		font-family: var(--font-family-body5);
+		font-size: var(--font-size-body5);
+		font-weight: var(--font-weight-body5);
+		line-height: var(--font-lineheight-body5);
 		padding: var(--spacing-md) var(--spacing-xl);
 		border-radius: var(--spacing-sm);
 	`,
