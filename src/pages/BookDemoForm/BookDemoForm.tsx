@@ -109,7 +109,7 @@ export default () => {
 		phone: "",
 		address: "",
 		flatNo: "",
-		city: "",
+		city: "Dubai",
 		visitDate: "",
 		categoryType: "",
 		comment: "",
@@ -335,6 +335,7 @@ export default () => {
 									<Flexbox direction="row" justify="space-between" align="center" gap={16} mb="sm">
 										<FlexboxItem colspan={24} colspanXL={11.5}>
 											<Input
+												disabled={true}
 												fullWidth={true}
 												mb="sm"
 												title="City"
@@ -430,13 +431,13 @@ export default () => {
 							<Text as="p" color="mine-shaft" align="center" fontStyleGuide="body3" mb="2xl" textWrap="balance">
 								Our consultants will be contacting you within 24-48 hours to schedule your free visit.
 							</Text>
-							<Flexbox direction="row" justify="center" align="center">
+							{/* <Flexbox direction="row" justify="center" align="center">
 								<Button type="secondary" onClick={() => navigate("/collection")}>
 									<Flexbox direction="row" justify="center" align="center">
 										Explore Our Collection
 									</Flexbox>
 								</Button>
-							</Flexbox>
+							</Flexbox> */}
 						</FlexboxItem>
 					</Flexbox>
 				)}

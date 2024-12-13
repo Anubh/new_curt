@@ -61,9 +61,9 @@ export default () => {
 						<Button full type="primary" to="/book-visit-form">Book a Free Visit</Button>
 					</FlexboxItem>
 					<FlexboxItem colspan={1} />
-					<FlexboxItem colspan={11} colspanXL={6}>
+					{/* <FlexboxItem colspan={11} colspanXL={6}>
 						<Button full type="secondary" to="/collection">Explore Our Collection</Button>
-					</FlexboxItem>
+					</FlexboxItem> */}
 				</Flexbox>
 			</PageContainer>
 			<Footer />

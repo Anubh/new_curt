@@ -145,9 +145,9 @@ export default () => {
 									<Text as="div" color="mine-shaft" fontStyleGuide="body4" mb="sm">
 										<Link type="primary" to="/faq">Help</Link>
 									</Text>
-									<Text as="div" color="mine-shaft" fontStyleGuide="body4" mb="sm">
+									{/* <Text as="div" color="mine-shaft" fontStyleGuide="body4" mb="sm">
 										<Link type="primary" to="/collection">Our Collection</Link>
-									</Text>
+									</Text> */}
 									<Text as="div" color="mine-shaft" fontStyleGuide="body4" mb="sm">
 										<Link type="primary" to="/book-visit-form">Book a Free Visit</Link>
 									</Text>

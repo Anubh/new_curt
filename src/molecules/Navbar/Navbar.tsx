@@ -8,7 +8,8 @@ import Link from "atoms/Link";
 
 
 const navItems = [
-	{ label: "Explore Our Collection", url: "/collection", type: "link" },
+	// { label: "Explore Our Collection", url: "/collection", type: "link" },
+	{ label: "Product Categories", url: "/product-categories", type: "link" },
 	{ label: "About Us", url: "/about-us", type: "link" },
 	{ label: "Help", url: "/faq", type: "link" },
 ]

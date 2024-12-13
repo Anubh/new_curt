@@ -62,8 +62,11 @@ export default (props: HeroBannerProps) => {
 						<Text fontStyleGuide="heading4" color="mine-shaft" textWrap="balance" align="center" alignXL="left">
 							{props.sub_title}
 						</Text>
-						<ResponsiveDiv css={styles.buttonWrapper} xl={styles.buttonWrapperXL} mt="lg">
+						{/* <ResponsiveDiv css={styles.buttonWrapper} xl={styles.buttonWrapperXL} mt="lg">
 							<Button type="secondary" to="/collection">Explore Our Collection</Button>
+						</ResponsiveDiv> */}
+						<ResponsiveDiv css={styles.buttonWrapper} xl={styles.buttonWrapperXL} mt="lg">
+							<Button type="secondary" to="/product-categories">Product Categories</Button>
 						</ResponsiveDiv>
 					</ResponsiveDiv>
 				</FlexboxItem>
