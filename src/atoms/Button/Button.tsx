@@ -29,7 +29,6 @@ const styles = {
 		color: var(--color-white);
 		transition: all .3s;
 		box-shadow:  0 5px #3f0401;
-		font-size: 12px;
 
 		&:hover {
 			//background-color: var(--color-mine-shaft);
@@ -49,7 +48,6 @@ const styles = {
 		color: var(--color-flamingo);
 		transition: all .3s;
 		box-shadow: 0 5px #666666;
-		font-size: 12px;
 
 		&:hover {
 			//background-color: var(--color-flamingo);
