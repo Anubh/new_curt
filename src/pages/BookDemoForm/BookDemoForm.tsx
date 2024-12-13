@@ -127,7 +127,7 @@ export default () => {
 		formData.address !== "" &&
 		formData.city !== "" &&
 		formData.visitDate !== "" &&
-		formData.categoryType !== "";
+		formData.categoryType == "";
 
 	const handleFirstNameChange = useCallback((event) => {
 		const value = event.target.value;
