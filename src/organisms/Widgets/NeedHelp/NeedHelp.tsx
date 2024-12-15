@@ -53,7 +53,8 @@ export default () => {
 					</FlexboxItem>
 				</Flexbox>
 				<ResponsiveDiv css={styles.imageContainer} xl={styles.imageContainerXL}>
-					<Image aspect-ratio="1" src="https://kurtains.ae/wp-content/uploads/2024/11/Holding-Hand-Smart-Phone-Mockup1.png" />
+					{/* <Image aspect-ratio="1" src="https://kurtains.ae/wp-content/uploads/2024/11/Holding-Hand-Smart-Phone-Mockup1.png" /> */}
+					<Image aspect-ratio="1" src="https://d3m6ysvindj7rm.cloudfront.net/whatsapp_chat.png" />
 				</ResponsiveDiv>
 			</ResponsiveDiv>
 		</WidgetContainer>
